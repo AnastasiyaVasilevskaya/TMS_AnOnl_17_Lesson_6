@@ -1,4 +1,5 @@
-package CreditCard;
+package creditcard;
+
 public class Main {
     public static void main(String[] args) {
         CreditCard card1 = new CreditCard(30111247800004111L, 1000.25);
