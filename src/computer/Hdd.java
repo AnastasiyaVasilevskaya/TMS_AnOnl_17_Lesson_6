@@ -6,6 +6,7 @@ public class Hdd {
     String type;
 
     public Hdd() {
+        this("hdd super", 16, "OUT type");
     }
 
     public Hdd(String name, int capacity, String type) {

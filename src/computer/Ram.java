@@ -5,12 +5,12 @@ public class Ram {
     int capacity;
 
     public Ram() {
+        this("ram param", 32);
     }
 
     public Ram(String name, int capacity) {
         this.name = name;
         this.capacity = capacity;
-
     }
 
     public void printInformation() {

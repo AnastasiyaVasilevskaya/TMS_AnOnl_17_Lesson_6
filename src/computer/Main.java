@@ -3,7 +3,7 @@ package computer;
 public class Main {
     public static void main(String[] args) {
         Ram ram2 = new Ram("ram2000", 16);
-        Hdd hdd2 = new Hdd("hdd4500", 48, "INtype");
+        Hdd hdd2 = new Hdd("hdd4500", 48, "IN type");
         Computer computer1 = new Computer(15000, "TUF505DT");
         Computer computer2 = new Computer(30000, "TUF505DX", ram2, hdd2);
 
